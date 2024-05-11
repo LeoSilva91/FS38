@@ -16,3 +16,6 @@
 
  mkdir
  Criar um diretório-pasta
+
+-git checkout -b "nome-da-branch"
+ Cria branch
