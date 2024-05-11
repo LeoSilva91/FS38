@@ -3,8 +3,11 @@
 #Comandos mais usados no dia-dia
 
 - cd
- Comando sair ou ir para um diretorio,
+ Comando sair ou ir para um diretorio.
 
  -cd ..
- Voltar para diretorio anterior 
+ Voltar para diretorio anterior.
+
+ -ls
+ Lista as pastas de um diretorio.
  
