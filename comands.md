@@ -19,3 +19,7 @@
 
 -git checkout -b "nome-da-branch"
  Cria branch
+
+ -git --help
+ Glosário de comandos git
+ 
