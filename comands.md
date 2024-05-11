@@ -13,3 +13,6 @@
  
  pwd
  Mostra todo o path do diretório Local.
+
+ mkdir
+ Criar um diretório-pasta
