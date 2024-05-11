@@ -11,3 +11,5 @@
  -ls
  Lista as pastas de um diretorio.
  
+ pwd
+ Mostra todo o path do diretório Local.
