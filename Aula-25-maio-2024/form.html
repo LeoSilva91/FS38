@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <div style="background-color: #edeef1; width: 550px;">
+        <div>
+            <section>
+                <article>
+                    <h3 style="text-align: center;">Formulário de Pesquisa Qualitativa</h3>
+                    <p style="text-align: justify; width: 520px; background: aqua; margin: 0 0 20px 15px">
+                        Formulário de pesquisa academico sobre trabalho de formulário na área de software na era Chat-GPT.
+                    </p>
+                </article>
+            </section>
+        </div>
+        <div>
+            <form>
+                <label for="Nome">Nome</label>
+                <input type="text" id="Nome" style="margin-bottom: 12px;">
+                <label for="CPF">CPF</label>
+                <input type="text" id="CPF">
+                <label for="E-mail">E-mail</label>
+                <input type="email" id="E-mail" required>
+                <label for="Idade">Idade</label>
+                <input type="number" min="0" max="100" id="idade">
+                <label for="Senha">Senha</label>
+                <input type="password" id="Senha">
+                <label for="Nascimento">Nascimento</label>
+                <input type="date">
+        </div>
+            <label for="Endereço">Endereço</label>
+            <input type="text" id="endereço">
+            <input type="time">
+            <label for="sexo">sexo</label>
+            <input type="radio" id="sexo" name="sexo" value="masculino">Masculino
+            <input type="radio" id="sexo" name="sexo" value="feminino">Feminino
+            <div>
+                <label for="Estado">Estado</label>
+                <select>
+                    <option value="Ceará">Ceará</option>
+                    <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                    <option value="Acre">Acre</option>
+                    <option value="Amapá">Amapá</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Pará">Pará</option>
+                </select>
+            </div>
+            <div>
+                <label for="Escolaridade">Escolaridade</label>
+                <select>
+                    <option value="Ensino fundamental">Ensino fundamental</option>
+                    <option value="Ensino médio">Ensino médio</option>
+                    <option value="Ensino superior">Ensino superior</option>
+                    <option value="Pós-graduação">Pós-graduação</option>
+                    <option value="Mestrado">Mestrado</option>
+                    <option value="Doutorado">Doutorado</option>
+                    <option value="Pós-doutorado">Pós-doutorado</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+            <div>
+                <input type="reset" value="Limpar">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
