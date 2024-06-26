@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=PT+Sans+Caption:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;      
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background-color: #FFFFFF;
+    padding: 16px 16px 16px 16px;
+    
+
+}
+.img{
+    background-image: url("imagem/mar.jpg");
+    width: 360px;
+    height: 280px;
+    border-radius:5px 5px 0px 0px;  
+    padding: 8px 0px 0px;
+}
+.img button{
+    font-family:"PT Sans Caption", sans-serif;
+    color:#FFFFFF;
+    background-color:#2A282F;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.texto>h1{
+    font-family:"Inter", sans-serif;
+    font-weight:600px;
+    font-size:24px;
+    line-height:29.05px;
+    letter-spacing: -4%;
+    color: #2A282F;
+}
+.texto>h2{
+    font-family:"Inter", sans-serif;
+    font-weight:400px;
+    font-size:16px;
+    line-height:16.36px;
+    letter-spacing: -4%;
+    color: #625f68;
+}
+.texto>h3{
+    font-family:"Inter";
+    font-weight:400px;
+    font-size:14px;
+    line-height:16.94px;
+    letter-spacing:-4%;
+    color: #A8A6AC;
+}
+.rodape{
+    display: flex;
+    justify-content:space-between;
+}
+.rodapeul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
